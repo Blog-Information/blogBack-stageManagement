@@ -1,19 +1,19 @@
 <script>
-import navigation from '@/components/navigation.vue'
+import console from '@/views/console.vue'
 import {defineComponent} from "vue";
-import Navigation from "@/components/navigation.vue";
 export default defineComponent({
-  components: {Navigation},
-  component:{
-    navigation
+  components:{
+    console:console
   }
 })
 </script>
 <template>
-  <p>test</p>
-  <navigation>
-  </navigation>
+  <console></console>
 </template>
 <style>
+*{
+  margin: 0;
+  padding: 0;
 
+}
 </style>
