@@ -8,7 +8,7 @@
               <el-icon>
                 <message/>
               </el-icon>
-              Navigator One
+              后台信息表
             </template>
             <el-menu-item-group>
               <template #title>哎呦,你干嘛!!!</template>
