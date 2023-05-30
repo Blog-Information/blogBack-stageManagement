@@ -19,7 +19,7 @@ export default {
   data() {
     return {
       visitorMessage: '',
-      visitorMessageUrl: 'http://localhost:8080/visitor',
+      visitorMessageUrl: 'http://localhost:8080/visitorList',
       totalVisits:0
     }
   },
@@ -61,17 +61,6 @@ export default {
       <el-table-column prop="browser" label="浏览器" align="center" />
       <el-table-column prop="system" label="平台" align="center" />
     </el-table>
-    <!--    <ul v-for="value in visitorMessage">-->
-    <!--      <li>-->
-    <!--        <el-button type="primary">{{value[0]}}</el-button>-->
-    <!--        <el-button>{{value[1]}}</el-button>-->
-    <!--        <el-button type="success">{{value[2]}}</el-button>-->
-    <!--        <el-button>{{value[3]}}</el-button>-->
-    <!--        <el-button type="success">{{value[4]}}</el-button>-->
-    <!--        <el-button>{{value[5]}}</el-button>-->
-    <!--        <el-button type="success">{{value[6]}}</el-button>-->
-    <!--      </li>-->
-    <!--    </ul>-->
   </div>
 </template>
 
