@@ -56,7 +56,8 @@ export default {
       <el-table-column prop="ranking" label="序列" align="center" />
       <el-table-column prop="data" label="日期" align="center" />
       <el-table-column prop="ipAddress" label="ip地址" align="center" />
-      <el-table-column prop="address" label="国家(地区)" align="center" />
+      <el-table-column prop="country" label="国家" align="center" />
+      <el-table-column prop="address" label="地区" align="center" />
       <el-table-column prop="lsp" label="运营商" align="center" />
       <el-table-column prop="browser" label="浏览器" align="center" />
       <el-table-column prop="system" label="平台" align="center" />
