@@ -1,6 +1,6 @@
 <template>
   <el-container class="layout-container">
-    <el-aside>
+    <el-aside width="auto">
       <el-scrollbar>
         <el-menu :default-openeds="['1', '3']">
           <el-sub-menu index="1">
@@ -66,7 +66,7 @@ import {Message} from '@element-plus/icons-vue'
   align-items: center;
   justify-content: center;
   height: 100%;
-  right: 20px;
+  right: 50px;
 }
 .layout-container{
 
